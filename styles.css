@@ -1,0 +1,20 @@
+
+:root { --bg:#0a0a0a; --gold:#d9b256; --gold-strong:#f0c66e; --muted:#bca36b; --white:#f5f5f5;}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--gold);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,sans-serif}
+a{color:var(--gold);text-decoration:none}
+a:hover{color:var(--gold-strong)}
+.nav{position:fixed;top:0;left:0;right:0;height:64px;display:flex;align-items:center;justify-content:center;gap:28px;background:rgba(0,0,0,0.6);backdrop-filter:blur(6px);z-index:50;border-bottom:1px solid #222}
+.nav a{font-weight:700;letter-spacing:.08em}
+.lang{position:absolute;right:18px;top:16px;border:1px solid var(--muted);padding:6px 10px;border-radius:999px;font-size:12px}
+.section{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:96px 24px 48px;position:relative}
+.section h1{font-size:56px;line-height:1.1;margin:0 0 16px;text-align:center}
+.section h2{font-size:36px;margin:0 0 10px;text-align:center}
+.section p{max-width:900px;text-align:center;color:var(--muted);font-size:18px;margin:0 auto}
+.hero img{max-width:720px;width:90%;height:auto;display:block;margin:24px auto}
+.coin-dot{width:48px;height:48px;border-radius:50%;border:2px solid var(--gold-strong);display:flex;align-items:center;justify-content:center;margin:20px auto}
+.coin-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:900px;margin:40px auto}
+.coin-grid img{width:80px;height:80px;object-fit:cover;border-radius:50%;border:2px solid var(--gold-strong);margin:0 auto;display:block}
+footer{padding:40px 24px;border-top:1px solid #222;text-align:center;color:var(--muted)}
+.small{font-size:14px;color:var(--muted)}
+.btn{display:inline-block;border:1px solid var(--gold);padding:10px 14px;border-radius:10px;margin:8px}
