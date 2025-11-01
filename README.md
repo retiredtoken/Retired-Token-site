@@ -1,0 +1,1 @@
+Static site for RTD. Deploy on Vercel (Framework: Other, no build, no output dir).
